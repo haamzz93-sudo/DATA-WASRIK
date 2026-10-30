@@ -1,0 +1,168 @@
+{
+  "dataset_id": "DS-003",
+  "dataset_name": "Data Wajib Lapor Ketenagakerjaan Perusahaan (WLKP)",
+  "agency": "Kementerian Ketenagakerjaan RI (SIAPkerja / Ditjen Binwasnaker & K3)",
+  "protocol": "API Gateway Kemnaker / REST API",
+  "update_frequency": "Triwulanan",
+  "pdp_sanitization": "Agregat Data Badan Usaha (UU PDP No. 27/2022 Art. 40 - Non-PII Statistical Aggregate)",
+  "reporting_period": "2026-Q3",
+  "total_records": 6,
+  "records": [
+    {
+      "company_id": "BU-001",
+      "nib": "0123456789012",
+      "company_name": "PT Cipta Busana Mandiri",
+      "wlkp_registration_no": "WLKP-2026-3578-01923",
+      "last_reported_date": "2026-08-14",
+      "workforce_composition": {
+        "pkwtt_permanent": 120,
+        "pkwt_contract": 45,
+        "foreign_workers_tka": 0,
+        "male_workers": 40,
+        "female_workers": 125,
+        "total_active_workers": 165
+      },
+      "payroll_aggregates": {
+        "monthly_total_payroll": 742500000,
+        "average_real_wage": 4500000,
+        "minimum_wage_provincial": 2980000,
+        "highest_wage": 12500000,
+        "lowest_wage": 3800000
+      },
+      "occupational_safety_k3": {
+        "p2k3_certified": true,
+        "labor_inspection_status": "Inspected Q2 2026"
+      }
+    },
+    {
+      "company_id": "BU-002",
+      "nib": "9876543210987",
+      "company_name": "PT Sumber Maju Sentosa",
+      "wlkp_registration_no": "WLKP-2026-3578-00481",
+      "last_reported_date": "2026-07-29",
+      "workforce_composition": {
+        "pkwtt_permanent": 320,
+        "pkwt_contract": 145,
+        "foreign_workers_tka": 0,
+        "male_workers": 380,
+        "female_workers": 85,
+        "total_active_workers": 465
+      },
+      "payroll_aggregates": {
+        "monthly_total_payroll": 3952500000,
+        "average_real_wage": 8500000,
+        "minimum_wage_provincial": 2980000,
+        "highest_wage": 25000000,
+        "lowest_wage": 6200000
+      },
+      "occupational_safety_k3": {
+        "p2k3_certified": true,
+        "labor_inspection_status": "Inspected Q1 2026"
+      }
+    },
+    {
+      "company_id": "BU-003",
+      "nib": "1122334455667",
+      "company_name": "PT Indo Mandiri Perkasa",
+      "wlkp_registration_no": "WLKP-2026-3578-08812",
+      "last_reported_date": "2026-08-02",
+      "workforce_composition": {
+        "pkwtt_permanent": 200,
+        "pkwt_contract": 80,
+        "foreign_workers_tka": 0,
+        "male_workers": 210,
+        "female_workers": 70,
+        "total_active_workers": 280
+      },
+      "payroll_aggregates": {
+        "monthly_total_payroll": 1736000000,
+        "average_real_wage": 6200000,
+        "minimum_wage_provincial": 2980000,
+        "highest_wage": 18000000,
+        "lowest_wage": 4800000
+      },
+      "occupational_safety_k3": {
+        "p2k3_certified": false,
+        "labor_inspection_status": "Pending Review"
+      }
+    },
+    {
+      "company_id": "BU-004",
+      "nib": "5566778899001",
+      "company_name": "PT Sinar Maju Tekstil",
+      "wlkp_registration_no": "WLKP-2026-3578-03319",
+      "last_reported_date": "2026-09-01",
+      "workforce_composition": {
+        "pkwtt_permanent": 85,
+        "pkwt_contract": 0,
+        "foreign_workers_tka": 0,
+        "male_workers": 30,
+        "female_workers": 55,
+        "total_active_workers": 85
+      },
+      "payroll_aggregates": {
+        "monthly_total_payroll": 340000000,
+        "average_real_wage": 4000000,
+        "minimum_wage_provincial": 2980000,
+        "highest_wage": 9000000,
+        "lowest_wage": 3400000
+      },
+      "occupational_safety_k3": {
+        "p2k3_certified": true,
+        "labor_inspection_status": "Certified Q3 2026"
+      }
+    },
+    {
+      "company_id": "BU-005",
+      "nib": "3344556677889",
+      "company_name": "PT Delta Logistik Nusantara",
+      "wlkp_registration_no": "WLKP-2026-3578-09144",
+      "last_reported_date": "2026-07-15",
+      "workforce_composition": {
+        "pkwtt_permanent": 110,
+        "pkwt_contract": 0,
+        "foreign_workers_tka": 0,
+        "male_workers": 102,
+        "female_workers": 8,
+        "total_active_workers": 110
+      },
+      "payroll_aggregates": {
+        "monthly_total_payroll": 572000000,
+        "average_real_wage": 5200000,
+        "minimum_wage_provincial": 2980000,
+        "highest_wage": 14000000,
+        "lowest_wage": 4200000
+      },
+      "occupational_safety_k3": {
+        "p2k3_certified": true,
+        "labor_inspection_status": "Active Audit"
+      }
+    },
+    {
+      "company_id": "BU-006",
+      "nib": "7788990011223",
+      "company_name": "PT Global Prima Elektronik",
+      "wlkp_registration_no": "WLKP-2026-3578-04421",
+      "last_reported_date": "2026-08-20",
+      "workforce_composition": {
+        "pkwtt_permanent": 70,
+        "pkwt_contract": 25,
+        "foreign_workers_tka": 0,
+        "male_workers": 60,
+        "female_workers": 35,
+        "total_active_workers": 95
+      },
+      "payroll_aggregates": {
+        "monthly_total_payroll": 551000000,
+        "average_real_wage": 5800000,
+        "minimum_wage_provincial": 2980000,
+        "highest_wage": 16000000,
+        "lowest_wage": 4500000
+      },
+      "occupational_safety_k3": {
+        "p2k3_certified": false,
+        "labor_inspection_status": "Sanctioned TMP2T"
+      }
+    }
+  ]
+}

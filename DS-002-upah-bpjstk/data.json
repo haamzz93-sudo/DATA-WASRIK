@@ -1,0 +1,125 @@
+{
+  "dataset_id": "DS-002",
+  "dataset_name": "Data Upah Terlaporkan (BPJS Ketenagakerjaan)",
+  "agency": "BPJS Ketenagakerjaan (Sistem Informasi Pelaporan Peserta / SIPP)",
+  "protocol": "Encrypted CSV / REST API",
+  "update_frequency": "Bulanan",
+  "pdp_sanitization": "NIK SHA-256 Hashing Wajib (Salted Hash: salt_wasrik_2026)",
+  "total_records": 6,
+  "records": [
+    {
+      "company_id": "BU-001",
+      "nib": "0123456789012",
+      "company_name": "PT Cipta Busana Mandiri",
+      "reported_sample_worker": {
+        "worker_name_masked": "A*** P*******",
+        "nik_salted_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "job_title": "Operator Jahit",
+        "reported_base_salary": 2200000,
+        "reported_allowance": 600000,
+        "reported_total_wage": 2800000,
+        "period": "2026-09"
+      },
+      "average_reported_wage": 2800000,
+      "total_reported_workers": 120,
+      "bpjstk_contribution_4pct": 112000,
+      "submission_date": "2026-09-08",
+      "payroll_hash_sha256": "8f481a5e1f98bc1954316d80bb598df469ad4e5657ef9a6225ffeb73c0516641"
+    },
+    {
+      "company_id": "BU-002",
+      "nib": "9876543210987",
+      "company_name": "PT Sumber Maju Sentosa",
+      "reported_sample_worker": {
+        "worker_name_masked": "B*** S******",
+        "nik_salted_sha256": "5e884898da28047151d0e56f8dc6292773603d0d6aabbdd62a11ef721d1542d8",
+        "job_title": "Teknisi Manufaktur Senior",
+        "reported_base_salary": 4300000,
+        "reported_allowance": 1000000,
+        "reported_total_wage": 5300000,
+        "period": "2026-09"
+      },
+      "average_reported_wage": 5300000,
+      "total_reported_workers": 320,
+      "bpjstk_contribution_4pct": 212000,
+      "submission_date": "2026-09-05",
+      "payroll_hash_sha256": "4b227777d4dd1fc61c6f884f48641d02b4d121d3fd328cb08b5531fcacdabf8a"
+    },
+    {
+      "company_id": "BU-003",
+      "nib": "1122334455667",
+      "company_name": "PT Indo Mandiri Perkasa",
+      "reported_sample_worker": {
+        "worker_name_masked": "C*** H******",
+        "nik_salted_sha256": "ef2d127de37b942baad06145e54b0c619a1f22327b2ebbcfbec78f5564afe39d",
+        "job_title": "Operator Kimia",
+        "reported_base_salary": 3800000,
+        "reported_allowance": 700000,
+        "reported_total_wage": 4500000,
+        "period": "2026-09"
+      },
+      "average_reported_wage": 4500000,
+      "total_reported_workers": 210,
+      "bpjstk_contribution_4pct": 180000,
+      "submission_date": "2026-09-07",
+      "payroll_hash_sha256": "d04b98f48e8f8bcc15c6ae5ac050801cd6dcfd428fb5f9e65c4e16e7807340fa"
+    },
+    {
+      "company_id": "BU-004",
+      "nib": "5566778899001",
+      "company_name": "PT Sinar Maju Tekstil",
+      "reported_sample_worker": {
+        "worker_name_masked": "D*** K*******",
+        "nik_salted_sha256": "a591a6d40bf420404a011733cfb7b190d62c65bf0bcda32b57b277d9ad9f146e",
+        "job_title": "Staf Gudang",
+        "reported_base_salary": 3400000,
+        "reported_allowance": 500000,
+        "reported_total_wage": 3900000,
+        "period": "2026-09"
+      },
+      "average_reported_wage": 3900000,
+      "total_reported_workers": 180,
+      "bpjstk_contribution_4pct": 156000,
+      "submission_date": "2026-09-02",
+      "payroll_hash_sha256": "3b9a1113e3ae8415de4c1f600b5d9461a6b09e49f66ebe2e47981e18b573c38d"
+    },
+    {
+      "company_id": "BU-005",
+      "nib": "3344556677889",
+      "company_name": "PT Delta Logistik Nusantara",
+      "reported_sample_worker": {
+        "worker_name_masked": "E*** W******",
+        "nik_salted_sha256": "2c26b46b68ffc68ff99b453c1d30413413422d706483bfa0f98a5e886266e7ae",
+        "job_title": "Driver Logistik",
+        "reported_base_salary": 4500000,
+        "reported_allowance": 600000,
+        "reported_total_wage": 5100000,
+        "period": "2026-09"
+      },
+      "average_reported_wage": 5100000,
+      "total_reported_workers": 65,
+      "bpjstk_contribution_4pct": 204000,
+      "submission_date": "2026-09-12",
+      "payroll_hash_sha256": "fc8252c8dc55839967c58b9ad755a59b61b67c1322016be0123e9ad4e9d825ff"
+    },
+    {
+      "company_id": "BU-006",
+      "nib": "7788990011223",
+      "company_name": "PT Global Prima Elektronik",
+      "reported_sample_worker": {
+        "worker_name_masked": "F*** R******",
+        "nik_salted_sha256": "c8bee19f2157e92bc1a0e1d0f7cf1580f2743ff9342f1577073f994c6f10c57f",
+        "job_title": "Teknisi Perakitan",
+        "reported_base_salary": 4200000,
+        "reported_allowance": 800000,
+        "reported_total_wage": 5000000,
+        "period": "2026-09"
+      },
+      "average_reported_wage": 5000000,
+      "total_reported_workers": 410,
+      "bpjstk_contribution_4pct": 200000,
+      "submission_date": "2026-09-04",
+      "payroll_hash_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    }
+  ]
+}

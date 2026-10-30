@@ -1,0 +1,102 @@
+{
+  "dataset_id": "DS-006",
+  "dataset_name": "Portal Nasional Penegakan Sanksi TMP2T (OSS BKPM & PTSP)",
+  "agency": "Kementerian Investasi / BKPM (Online Single Submission) & DPMPTSP RI",
+  "legal_basis": "Peraturan Pemerintah No. 86 Tahun 2013 jo. UU No. 24 Tahun 2011 Pasal 17",
+  "protocol": "Webhooks / REST API JSON",
+  "update_frequency": "Event-Driven / Real-Time",
+  "pdp_sanitization": "Public Corporate Sanction Record (Badan Hukum Publik Sesuai PP 86/2013)",
+  "total_records": 6,
+  "records": [
+    {
+      "company_id": "BU-001",
+      "nib": "0123456789012",
+      "company_name": "PT Cipta Busana Mandiri",
+      "sanction_status": "NIHIL",
+      "sanction_level": "NONE",
+      "active_sanction": null,
+      "legal_recommendation": "Dalam pemantauan audit kepatuhan upah & PDUK JKN."
+    },
+    {
+      "company_id": "BU-002",
+      "nib": "9876543210987",
+      "company_name": "PT Sumber Maju Sentosa",
+      "sanction_status": "AKTIF_TEGURAN_I",
+      "sanction_level": "TEGURAN_TERTULIS_I",
+      "active_sanction": {
+        "decree_number": "SK-SANKSI/BPJSKES/3578/IX/2026/041",
+        "issued_date": "2026-09-15",
+        "grace_period_days": 30,
+        "due_date": "2026-10-15",
+        "issuing_authority": "Kepala Cabang BPJS Kesehatan Madiun",
+        "violation_type": "Pemberi Kerja Tidak Menyampaikan Data Upah & Pekerja Secara Lengkap dan Benar (Pasal 5 ayat 1 PP 86/2013)",
+        "restricted_services": [
+          "Dalam masa peringatan 30 hari sebelum eskalasi ke Teguran Tertulis II"
+        ],
+        "oss_status": "MONITORING_FLAG"
+      },
+      "legal_recommendation": "Wajib memenuhi pendaftaran 145 pekerja kontrak dan koreksi data upah ke Rp 8.5M."
+    },
+    {
+      "company_id": "BU-003",
+      "nib": "1122334455667",
+      "company_name": "PT Indo Mandiri Perkasa",
+      "sanction_status": "NIHIL",
+      "sanction_level": "NONE",
+      "active_sanction": null,
+      "legal_recommendation": "Pending tindak lanjut hasil audit lapangan Wasrik."
+    },
+    {
+      "company_id": "BU-004",
+      "nib": "5566778899001",
+      "company_name": "PT Sinar Maju Tekstil",
+      "sanction_status": "PATUH_BEBAS_SANKSI",
+      "sanction_level": "NONE",
+      "active_sanction": null,
+      "legal_recommendation": "Pemberi Kerja Patuh (Good Corporate Governance JKN)."
+    },
+    {
+      "company_id": "BU-005",
+      "nib": "3344556677889",
+      "company_name": "PT Delta Logistik Nusantara",
+      "sanction_status": "PERINGATAN_INTERNAL",
+      "sanction_level": "SURAT_TAGIHAN_SP2",
+      "active_sanction": {
+        "decree_number": "ST-IURAN/BPJSKES/VIII/2026/088",
+        "issued_date": "2026-09-20",
+        "grace_period_days": 14,
+        "due_date": "2026-10-04",
+        "issuing_authority": "Bidang Penagihan & Keuangan BPJS Kesehatan",
+        "violation_type": "Penunggakan Pembayaran Iuran JKN 2 Bulan Berturut-turut",
+        "restricted_services": [
+          "Peringatan penonaktifan sementara kartu peserta JKN jika mencapai 3 bulan"
+        ],
+        "oss_status": "WARNING_NOTICE"
+      },
+      "legal_recommendation": "Pemberian fasilitas relaksasi cicilan atau penagihan langsung juru sita."
+    },
+    {
+      "company_id": "BU-006",
+      "nib": "7788990011223",
+      "company_name": "PT Global Prima Elektronik",
+      "sanction_status": "SANKSI_BERAT_TMP2T",
+      "sanction_level": "TIDAK_MENDAPAT_PELAYANAN_PUBLIK_TERTENTU",
+      "active_sanction": {
+        "decree_number": "SK-TMP2T/OSS-BKPM/VIII/2026/009",
+        "issued_date": "2026-08-01",
+        "grace_period_days": 0,
+        "due_date": "Hingga Kewajiban Diselesaikan",
+        "issuing_authority": "Menteri Investasi / Kepala BKPM & BPJS Kesehatan RI",
+        "violation_type": "Ketidakpatuhan Total Pembayaran Iuran & Pendaftaran Kepesertaan JKN (Pasal 9 PP 86/2013)",
+        "restricted_services": [
+          "Pelayanan Izin Usaha / NIB Pembaharuan di Portal OSS",
+          "Izin Mendirikan Bangunan Gedung (PBG)",
+          "Layanan Kepabeanan & Rekomendasi Ekspor-Impor INSW",
+          "Partisipasi Tender Pengadaan Barang/Jasa Pemerintah (LPSE/LKPP)"
+        ],
+        "oss_status": "BLOCKED_SERVICE_ACCESS"
+      },
+      "legal_recommendation": "Eksekusi Pelimpahan Kejaksaan Negeri Madiun (Datun) & Pemblokiran OSS 100%."
+    }
+  ]
+}
